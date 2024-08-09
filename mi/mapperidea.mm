@@ -2,11 +2,11 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1723053746490" ID="ID_285446861" LINK="br.com.neoinix.angular.mm" MODIFIED="1723142916133" TEXT="mapperidea">
 <icon BUILTIN="element"/>
-<node CREATED="1723053975779" MODIFIED="1723136527336" POSITION="right" TEXT="generators">
+<node CREATED="1723053975779" ID="ID_1118909552" MODIFIED="1723136527336" POSITION="right" TEXT="generators">
 <icon BUILTIN="element"/>
-<node CREATED="1682025258298" FOLDED="true" MODIFIED="1723136883927" TEXT="struct">
+<node CREATED="1682025258298" FOLDED="true" ID="ID_1496069160" MODIFIED="1723226338116" TEXT="struct">
 <icon BUILTIN="element"/>
-<node CREATED="1684159213839" FOLDED="true" MODIFIED="1723136881960" TEXT="xml">
+<node CREATED="1684159213839" FOLDED="true" ID="ID_1566235510" MODIFIED="1723226336580" TEXT="xml">
 <icon BUILTIN="element"/>
 <node CREATED="1684159426363" MODIFIED="1684159432551" TEXT="parameters">
 <icon BUILTIN="element"/>
@@ -374,7 +374,7 @@
 </node>
 <node CREATED="1723136528886" MODIFIED="1723136538975" TEXT="jsonServer">
 <icon BUILTIN="element"/>
-<node CREATED="1723136851467" MODIFIED="1723136876077" TEXT="dbJson">
+<node CREATED="1723136851467" ID="ID_1375344254" MODIFIED="1723223856046" TEXT="dbJson">
 <icon BUILTIN="element"/>
 <node CREATED="1723137593803" MODIFIED="1723140663517" TEXT="patterns">
 <icon BUILTIN="element"/>
@@ -423,13 +423,13 @@
 </node>
 <node CREATED="1723136910499" MODIFIED="1723137153309" TEXT="start">
 <icon BUILTIN="element"/>
-<node CREATED="1723136939715" MODIFIED="1723136944736" TEXT="match">
+<node CREATED="1723136939715" ID="ID_1473581162" MODIFIED="1723136944736" TEXT="match">
 <icon BUILTIN="element"/>
 <node CREATED="1723137050290" MODIFIED="1723141232533" TEXT="/classes">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1723137153310" MODIFIED="1723139922565" TEXT="body">
+<node CREATED="1723137153310" ID="ID_430966448" MODIFIED="1723139922565" TEXT="body">
 <icon BUILTIN="element"/>
 <node CREATED="1723137258891" MODIFIED="1723139756407" TEXT="inicio">
 <icon BUILTIN="Descriptor.grouping"/>
@@ -469,9 +469,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1723140373009" MODIFIED="1723140379798" TEXT="templates">
+<node CREATED="1723140373009" ID="ID_1719281168" MODIFIED="1723226318214" TEXT="templates">
 <icon BUILTIN="element"/>
-<node CREATED="1723140426913" MODIFIED="1723140432455" TEXT="mode">
+<node CREATED="1723140426913" ID="ID_1663552424" MODIFIED="1723226329966" TEXT="mode">
 <icon BUILTIN="element"/>
 <node CREATED="1723140435810" MODIFIED="1723140440317" TEXT="makeClass">
 <icon BUILTIN="tag_green"/>
@@ -492,7 +492,7 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1723141920496" MODIFIED="1723141925501" TEXT="if">
+<node CREATED="1723141920496" ID="ID_728142776" MODIFIED="1723141925501" TEXT="if">
 <icon BUILTIN="element"/>
 <node CREATED="1723141927689" MODIFIED="1723141965925" TEXT="position() != last()">
 <icon BUILTIN="tag_green"/>
@@ -514,6 +514,108 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1723223676512" ID="ID_864529982" MODIFIED="1723223690926" TEXT="angular9">
+<icon BUILTIN="element"/>
+<node CREATED="1723223788393" ID="ID_1900194083" MODIFIED="1723223798724" TEXT="navComponentHtml">
+<icon BUILTIN="element"/>
+<node CREATED="1723225441553" ID="ID_1838278255" MODIFIED="1723225812945" TEXT="patterns">
+<icon BUILTIN="element"/>
+<node CREATED="1723225453816" ID="ID_1415380386" MODIFIED="1723225455796" TEXT="init">
+<icon BUILTIN="element"/>
+<node CREATED="1723225484930" ID="ID_1578060501" MODIFIED="1723225522564" TEXT="&lt;mat-sidenav-container class=&quot;container&quot;&gt;&#xa;    &lt;mat-sidenav class=&quot;sidenav&quot; mode=&quot;side&quot; opened fixedInViewport=&quot;true&quot; fixedTopGap=&quot;64&quot;&gt;&#xa;        &lt;mat-nav-list class=&quot;nav-list&quot;&gt;&#xa;            &lt;a mat-list-item routerLink=&quot;/&quot;&gt;&#xa;                &lt;i class=&quot;material-icons&quot;&gt;&#xa;                    home&#xa;                &lt;/i&gt;&#xa;                In&#xed;cio&#xa;            &lt;/a&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1723137520274" ID="ID_13390467" MODIFIED="1723226528339" TEXT="itemNav">
+<icon BUILTIN="element"/>
+<node CREATED="1723226567961" ID="ID_649609808" MODIFIED="1723228850934" TEXT="            &lt;a mat-list-item routerLink=&quot;/{{ mi:first-lower(@name) }}&quot;&gt;&#xa;                &lt;i class=&quot;material-icons&quot;&gt;&#xa;                    {{ mi:if-else(exists(properties/icon/value), properties/icon/value, &apos;do not exist&apos;) }}&#xa;                &lt;/i&gt;&#xa;                {{ properties/title/value }}&#xa;            &lt;/a&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1723137520274" ID="ID_1272919824" MODIFIED="1723225824324" TEXT="end">
+<icon BUILTIN="element"/>
+<node CREATED="1723225827841" ID="ID_1130553613" MODIFIED="1723225844117" TEXT="        &lt;/mat-nav-list&gt;&#xa;    &lt;/mat-sidenav&gt;&#xa;    &lt;mat-sidenav-content class=&quot;content&quot;&gt;&#xa;        &lt;router-outlet&gt;&lt;/router-outlet&gt;&#xa;    &lt;/mat-sidenav-content&gt;&#xa;&lt;/mat-sidenav-container&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1723223841937" ID="ID_1438898375" MODIFIED="1723223844600" TEXT="start">
+<icon BUILTIN="element"/>
+<node CREATED="1723136939715" ID="ID_1677252770" MODIFIED="1723136944736" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1723137050290" MODIFIED="1723141232533" TEXT="/classes">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1723137153310" ID="ID_987251756" MODIFIED="1723139922565" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1723137258891" ID="ID_262137596" MODIFIED="1723139756407" TEXT="inicio">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1723137437658" ID="ID_1475376703" MODIFIED="1723225550274" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1723137520274" ID="ID_880577793" MODIFIED="1723225575654" TEXT="init">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1723226050241" ID="ID_636206553" MODIFIED="1723226109516" TEXT="body">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1723226050241" ID="ID_717546224" MODIFIED="1723226063299" TEXT="apply-templates">
+<icon BUILTIN="element"/>
+<node CREATED="1723226113090" ID="ID_781565258" MODIFIED="1723226115925" TEXT="select">
+<icon BUILTIN="element"/>
+<node CREATED="1723226116977" ID="ID_799929130" MODIFIED="1723226181816" TEXT="class[@mode=&quot;window.editor&quot;]">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1723226203545" ID="ID_1825993422" MODIFIED="1723226208895" TEXT="mode">
+<icon BUILTIN="element"/>
+<node CREATED="1723226233059" ID="ID_57574539" MODIFIED="1723226238493" TEXT="itemNav">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1723137258891" ID="ID_939855326" MODIFIED="1723225401179" TEXT="fim">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1723137437658" ID="ID_547823899" MODIFIED="1723140622524" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1723137520274" ID="ID_393197945" MODIFIED="1723225805054" TEXT="end">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1723226301162" ID="ID_1569261741" MODIFIED="1723226322453" TEXT="templates">
+<icon BUILTIN="element"/>
+<node CREATED="1723140426913" ID="ID_213812059" MODIFIED="1723226326047" TEXT="mode">
+<icon BUILTIN="element"/>
+<node CREATED="1723140435810" ID="ID_424097584" MODIFIED="1723226355246" TEXT="itemNav">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1723140470241" MODIFIED="1723140477238" TEXT="template">
+<icon BUILTIN="element"/>
+<node CREATED="1723140521865" MODIFIED="1723140524686" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1723140548096" MODIFIED="1723140551735" TEXT="class">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1723140559777" ID="ID_1315455087" MODIFIED="1723140572957" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1723137437658" ID="ID_1764782454" MODIFIED="1723140628253" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1723137520274" ID="ID_702660750" MODIFIED="1723226502262" TEXT="itemNav">
+<icon BUILTIN="tag_green"/>
 </node>
 </node>
 </node>
