@@ -25,4 +25,3 @@ export class HeaderComponent implements OnInit {
     return this.headerService.headerData.routeUrl;
   }
 }
-
