@@ -25,13 +25,13 @@ import { MatSortModule } from '@angular/material/sort';
 import localePt from '@angular/common/locales/pt';
 import { registerLocaleData } from '@angular/common';
 registerLocaleData(localePt);
-
+ 
 import { ProdutoFormCrudComponent } from './windows/produtoForm/produto-form-crud/produto-form-crud.component';
 import { ProdutoFormReadComponent } from './windows/produtoForm/produto-form-read/produto-form-read.component';
 import { ProdutoFormCreateComponent } from './windows/produtoForm/produto-form-create/produto-form-create.component';
 import { ProdutoFormUpdateComponent } from './windows/produtoForm/produto-form-update/produto-form-update.component';
 import { ProdutoFormDeleteComponent } from './windows/produtoForm/produto-form-delete/produto-form-delete.component';
-
+ 
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,6 +45,7 @@ import { ProdutoFormDeleteComponent } from './windows/produtoForm/produto-form-d
     ProdutoFormUpdateComponent,
     ProdutoFormDeleteComponent
   ],
+ 
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -63,12 +64,16 @@ import { ProdutoFormDeleteComponent } from './windows/produtoForm/produto-form-d
     MatPaginatorModule,
     MatSortModule
   ],
+ 
   providers: [
     {
       provide: LOCALE_ID,
       useValue: 'pt-BR'
     }
   ],
+ 
   bootstrap: [AppComponent]
+ 
 })
+ 
 export class AppModule { }
