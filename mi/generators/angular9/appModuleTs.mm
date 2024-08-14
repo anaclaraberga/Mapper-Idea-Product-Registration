@@ -6,17 +6,17 @@
 <icon BUILTIN="element"/>
 <node CREATED="1723646772064" MODIFIED="1723653821542" TEXT="import">
 <icon BUILTIN="element"/>
-<node CREATED="1723646826258" MODIFIED="1723654589036" TEXT="import { BrowserModule } from &apos;@angular/platform-browser&apos;;&#xa;import { NgModule, LOCALE_ID } from &apos;@angular/core&apos;;&#xa;&#xa;import { AppRoutingModule } from &apos;./app-routing.module&apos;;&#xa;import { AppComponent } from &apos;./app.component&apos;;&#xa;import { BrowserAnimationsModule } from &apos;@angular/platform-browser/animations&apos;;&#xa;import { HeaderComponent } from &apos;./components/template/header/header.component&apos;;&#xa;import { MatToolbarModule } from &apos;@angular/material/toolbar&apos;;&#xa;import { FooterComponent } from &apos;./components/template/footer/footer.component&apos;;&#xa;import { HomeComponent } from &apos;./views/home/home.component&apos;;&#xa;import { MatCardModule } from &apos;@angular/material/card&apos;;&#xa;import { NavComponent } from &apos;./components/template/nav/nav.component&apos;;&#xa;import { MatSidenavModule } from &apos;@angular/material/sidenav&apos;;&#xa;import { MatListModule } from &apos;@angular/material/list&apos;;&#xa;import { MatButtonModule } from &apos;@angular/material/button&apos;;&#xa;import { MatSnackBarModule } from &apos;@angular/material/snack-bar&apos;;&#xa;import { HttpClientModule } from &apos;@angular/common/http&apos;;&#xa;import { FormsModule } from &apos;@angular/forms&apos;;&#xa;import { MatFormFieldModule } from &apos;@angular/material/form-field&apos;;&#xa;import { MatInputModule } from &apos;@angular/material/input&apos;;&#xa;import { MatTableModule } from &apos;@angular/material/table&apos;;&#xa;import { MatPaginatorModule } from &apos;@angular/material/paginator&apos;;&#xa;import { MatSortModule } from &apos;@angular/material/sort&apos;;&#xa;&#xa;import localePt from &apos;@angular/common/locales/pt&apos;;&#xa;import { registerLocaleData } from &apos;@angular/common&apos;;&#xa;registerLocaleData(localePt);&#xa; ">
+<node CREATED="1723646826258" ID="ID_735389850" MODIFIED="1723654589036" TEXT="import { BrowserModule } from &apos;@angular/platform-browser&apos;;&#xa;import { NgModule, LOCALE_ID } from &apos;@angular/core&apos;;&#xa;&#xa;import { AppRoutingModule } from &apos;./app-routing.module&apos;;&#xa;import { AppComponent } from &apos;./app.component&apos;;&#xa;import { BrowserAnimationsModule } from &apos;@angular/platform-browser/animations&apos;;&#xa;import { HeaderComponent } from &apos;./components/template/header/header.component&apos;;&#xa;import { MatToolbarModule } from &apos;@angular/material/toolbar&apos;;&#xa;import { FooterComponent } from &apos;./components/template/footer/footer.component&apos;;&#xa;import { HomeComponent } from &apos;./views/home/home.component&apos;;&#xa;import { MatCardModule } from &apos;@angular/material/card&apos;;&#xa;import { NavComponent } from &apos;./components/template/nav/nav.component&apos;;&#xa;import { MatSidenavModule } from &apos;@angular/material/sidenav&apos;;&#xa;import { MatListModule } from &apos;@angular/material/list&apos;;&#xa;import { MatButtonModule } from &apos;@angular/material/button&apos;;&#xa;import { MatSnackBarModule } from &apos;@angular/material/snack-bar&apos;;&#xa;import { HttpClientModule } from &apos;@angular/common/http&apos;;&#xa;import { FormsModule } from &apos;@angular/forms&apos;;&#xa;import { MatFormFieldModule } from &apos;@angular/material/form-field&apos;;&#xa;import { MatInputModule } from &apos;@angular/material/input&apos;;&#xa;import { MatTableModule } from &apos;@angular/material/table&apos;;&#xa;import { MatPaginatorModule } from &apos;@angular/material/paginator&apos;;&#xa;import { MatSortModule } from &apos;@angular/material/sort&apos;;&#xa;&#xa;import localePt from &apos;@angular/common/locales/pt&apos;;&#xa;import { registerLocaleData } from &apos;@angular/common&apos;;&#xa;registerLocaleData(localePt);&#xa; ">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1723654100048" MODIFIED="1723654106935" TEXT="importWindow">
+<node CREATED="1723654100048" ID="ID_873035232" MODIFIED="1723654106935" TEXT="importWindow">
 <icon BUILTIN="element"/>
 <node CREATED="1723654109191" MODIFIED="1723654594075" TEXT="import { {{ mi:first-upper(@name) }}CrudComponent } from &apos;./windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-crud/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-crud.component&apos;;&#xa;import { {{ mi:first-upper(@name) }}ReadComponent } from &apos;./windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-read/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-read.component&apos;;&#xa;import { {{ mi:first-upper(@name) }}CreateComponent } from &apos;./windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-create/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-create.component&apos;;&#xa;import { {{ mi:first-upper(@name) }}UpdateComponent } from &apos;./windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-update/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-update.component&apos;;&#xa;import { {{ mi:first-upper(@name) }}DeleteComponent } from &apos;./windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-delete/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-delete.component&apos;;&#xa; ">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1723654646008" MODIFIED="1723654664569" TEXT="ngModule">
+<node CREATED="1723654646008" ID="ID_485466770" MODIFIED="1723658641941" TEXT="ngModule">
 <icon BUILTIN="element"/>
 <node CREATED="1723654666096" MODIFIED="1723654672594" TEXT="@NgModule({">
 <icon BUILTIN="tag_green"/>
@@ -67,13 +67,13 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1723655632615" MODIFIED="1723655635188" TEXT="export">
+<node CREATED="1723655632615" ID="ID_1413840461" MODIFIED="1723655635188" TEXT="export">
 <icon BUILTIN="element"/>
 <node CREATED="1723655636425" MODIFIED="1723655649613" TEXT="export class AppModule { }">
 <icon BUILTIN="tag_yellow"/>
 </node>
 </node>
-<node CREATED="1723142004472" MODIFIED="1723142011715" TEXT="generic">
+<node CREATED="1723142004472" ID="ID_1415458831" MODIFIED="1723660415651" TEXT="generic">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1723137437658" MODIFIED="1723142242604" TEXT="comma">
 <icon BUILTIN="element"/>
@@ -89,15 +89,15 @@
 </node>
 </node>
 </node>
-<node CREATED="1723646616505" MODIFIED="1723653678676" POSITION="right" TEXT="start">
+<node CREATED="1723646616505" ID="ID_458096918" MODIFIED="1723661676635" POSITION="right" TEXT="start">
 <icon BUILTIN="element"/>
-<node CREATED="1723580426980" MODIFIED="1723653682109" TEXT="match">
+<node CREATED="1723580426980" ID="ID_966840559" MODIFIED="1723653682109" TEXT="match">
 <icon BUILTIN="element"/>
 <node CREATED="1723482132895" MODIFIED="1723653763979" TEXT="/classes">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1723646610576" MODIFIED="1723653796959" TEXT="body">
+<node CREATED="1723646610576" ID="ID_1998797492" MODIFIED="1723653796959" TEXT="body">
 <icon BUILTIN="element"/>
 <node CREATED="1723580902309" MODIFIED="1723653799756" TEXT="init">
 <icon BUILTIN="Descriptor.grouping"/>
@@ -123,9 +123,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1723580905477" MODIFIED="1723653798983" TEXT="body">
+<node CREATED="1723580905477" ID="ID_588258704" MODIFIED="1723661667520" TEXT="body">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1723573062829" MODIFIED="1723653800914" TEXT="write-pattern">
+<node CREATED="1723573062829" ID="ID_1932154815" MODIFIED="1723653800914" TEXT="write-pattern">
 <icon BUILTIN="element"/>
 <node CREATED="1723572907646" MODIFIED="1723654685860" TEXT="ngModule">
 <icon BUILTIN="tag_green"/>
@@ -199,7 +199,7 @@
 </node>
 <node CREATED="1723226301162" ID="ID_1259527778" MODIFIED="1723656950659" POSITION="right" TEXT="templates">
 <icon BUILTIN="element"/>
-<node CREATED="1723140426913" MODIFIED="1723226326047" TEXT="mode">
+<node CREATED="1723140426913" ID="ID_1957622478" MODIFIED="1723226326047" TEXT="mode">
 <icon BUILTIN="element"/>
 <node CREATED="1723140435810" MODIFIED="1723654071043" TEXT="importWindow">
 <icon BUILTIN="tag_green"/>
@@ -244,7 +244,7 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1723141920496" MODIFIED="1723141925501" TEXT="if">
+<node CREATED="1723141920496" ID="ID_1580729757" MODIFIED="1723141925501" TEXT="if">
 <icon BUILTIN="element"/>
 <node CREATED="1723141927689" MODIFIED="1723141965925" TEXT="position() != last()">
 <icon BUILTIN="tag_green"/>
