@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1723482075079" ID="ID_1915804850" LINK="../../mapperidea.mm" MODIFIED="1723570512948" TEXT="modelTs">
 <icon BUILTIN="element"/>
-<node CREATED="1723482296323" ID="ID_1035645726" MODIFIED="1723572985626" POSITION="right" TEXT="parameters">
+<node CREATED="1723482296323" ID="ID_1035645726" MODIFIED="1723827418636" POSITION="right" TEXT="parameters">
 <icon BUILTIN="element"/>
 <node CREATED="1723482296323" MODIFIED="1723482307069" TEXT="className">
 <icon BUILTIN="element"/>
@@ -112,7 +112,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1723482503496" MODIFIED="1723482522037" TEXT="inicio">
+<node CREATED="1723482503496" FOLDED="true" ID="ID_1071476137" MODIFIED="1723826691317" TEXT="inicio">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1723137437658" MODIFIED="1723483038922" TEXT="write-pattern">
 <icon BUILTIN="element"/>
@@ -121,7 +121,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1723482507488" MODIFIED="1723482522036" TEXT="corpo">
+<node CREATED="1723482507488" ID="ID_1738137996" MODIFIED="1723482522036" TEXT="corpo">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1723484144865" MODIFIED="1723484372431" TEXT="write-pattern">
 <icon BUILTIN="element"/>
@@ -145,7 +145,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1723482511896" MODIFIED="1723482522036" TEXT="fim">
+<node CREATED="1723482511896" ID="ID_218637257" MODIFIED="1723482522036" TEXT="fim">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1723137437658" MODIFIED="1723140622524" TEXT="write-pattern">
 <icon BUILTIN="element"/>
