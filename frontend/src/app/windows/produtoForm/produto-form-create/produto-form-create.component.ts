@@ -8,13 +8,14 @@ import { Produto } from '../produto.model';
   templateUrl: './produto-form-create.component.html',
   styleUrls: ['./produto-form-create.component.css']
 })
+ 
 export class ProdutoFormCreateComponent implements OnInit {
-
+ 
   produto: Produto = {
     nome: '',
-    preco: null
+    preco: null 
   };
-
+ 
   constructor(private produtoService: ProdutoService, private router: Router) { }
 
   ngOnInit(): void {
@@ -33,3 +34,4 @@ export class ProdutoFormCreateComponent implements OnInit {
   }
 
 }
+
