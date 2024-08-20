@@ -13,7 +13,7 @@ export class ProdutoFormCreateComponent implements OnInit {
  
   produto: Produto = {
     nome: '',
-    preco: null 
+    preco: null
   };
  
   constructor(private produtoService: ProdutoService, private router: Router) { }
