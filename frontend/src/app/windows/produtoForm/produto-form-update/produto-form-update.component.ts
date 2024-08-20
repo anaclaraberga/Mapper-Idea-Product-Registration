@@ -8,13 +8,14 @@ import { Produto } from '../produto.model';
   templateUrl: './produto-form-update.component.html',
   styleUrls: ['./produto-form-update.component.css']
 })
+ 
 export class ProdutoFormUpdateComponent implements OnInit {
-
+ 
   produto: Produto = {
     nome: '',
-    preco: null
+    preco: null 
   };
-
+ 
   constructor(private produtoService: ProdutoService, private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
@@ -25,10 +26,12 @@ export class ProdutoFormUpdateComponent implements OnInit {
   }
 
   updateProduto(): void {
-    this.produtoService.update(this.produto).subscribe(() => {
-      this.produtoService.showMessage('Produto editado com sucesso.');
+    this.produtoService.update(this.produto).subscribe(
+    () => {
+      this.produtoService.showMessage('Produto editado com sucesso!');
       this.router.navigate(['/produtoForm']);
-    });
+    }
+  );
   }
 
   cancel(): void {
@@ -36,3 +39,4 @@ export class ProdutoFormUpdateComponent implements OnInit {
   }
 
 }
+

@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1723661398938" ID="ID_901827514" LINK="../../../mapperidea.mm" MODIFIED="1724177804828" TEXT="createComponentHtml">
 <icon BUILTIN="element"/>
-<node CREATED="1724087884176" ID="ID_237660106" MODIFIED="1724172804896" POSITION="right" TEXT="vars">
+<node CREATED="1724087884176" FOLDED="true" ID="ID_237660106" MODIFIED="1724182528472" POSITION="right" TEXT="vars">
 <icon BUILTIN="element"/>
 <node CREATED="1724087889272" MODIFIED="1724087895377" TEXT="angularTypes">
 <icon BUILTIN="element"/>
@@ -41,13 +41,13 @@
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1723141988744" MODIFIED="1724172720017" TEXT="field-string">
 <icon BUILTIN="element"/>
-<node CREATED="1724172675378" ID="ID_764352213" MODIFIED="1724179560532" TEXT="        &lt;mat-form-field&gt;&#xa;            &lt;input matInput placeholder=&quot;{{ properties/description/value }}&quot; [(ngModel)]=&quot;{{ mi:first-lower($nameClass) }}.{{ mi:first-lower(@name) }}&quot; name=&quot;{{ mi:first-lower(@name) }}&quot;/&gt;&#xa;        &lt;/mat-form-field&gt;">
+<node CREATED="1724172675378" ID="ID_764352213" MODIFIED="1724182713551" TEXT="        &lt;mat-form-field&gt;&#xa;            &lt;input matInput placeholder=&quot;{{ properties/description/value }}&quot; [(ngModel)]=&quot;{{ mi:first-lower($nameClass) }}.{{ mi:first-lower(@name) }}&quot; name=&quot;{{ mi:first-lower(@name) }}&quot;&gt;&#xa;        &lt;/mat-form-field&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1723141988744" MODIFIED="1724172595282" TEXT="field-decimal">
+<node CREATED="1723141988744" ID="ID_1242763686" MODIFIED="1724172595282" TEXT="field-decimal">
 <icon BUILTIN="element"/>
-<node CREATED="1724172688083" ID="ID_1241572020" MODIFIED="1724179565359" TEXT="        &lt;mat-form-field&gt;&#xa;            &lt;input matInput placeholder=&quot;{{ properties/description/value }}&quot; [(ngModel)]=&quot;{{ mi:first-lower($nameClass) }}.{{ mi:first-lower(@name) }}&quot; name=&quot;{{ mi:first-lower(@name) }}&quot; type=&quot;number&quot;/&gt;&#xa;        &lt;/mat-form-field&gt;&#xa; ">
+<node CREATED="1724172688083" ID="ID_1241572020" MODIFIED="1724182718593" TEXT="        &lt;mat-form-field&gt;&#xa;            &lt;input matInput placeholder=&quot;{{ properties/description/value }}&quot; [(ngModel)]=&quot;{{ mi:first-lower($nameClass) }}.{{ mi:first-lower(@name) }}&quot; name=&quot;{{ mi:first-lower(@name) }}&quot; type=&quot;number&quot;&gt;&#xa;        &lt;/mat-form-field&gt;&#xa; ">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
