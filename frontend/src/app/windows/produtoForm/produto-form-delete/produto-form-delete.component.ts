@@ -8,13 +8,14 @@ import { Produto } from '../produto.model';
   templateUrl: './produto-form-delete.component.html',
   styleUrls: ['./produto-form-delete.component.css']
 })
+ 
 export class ProdutoFormDeleteComponent implements OnInit {
-
+ 
   produto: Produto = {
     nome: '',
     preco: null
   };
-
+ 
   constructor(private produtoService: ProdutoService, private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
@@ -26,14 +27,16 @@ export class ProdutoFormDeleteComponent implements OnInit {
 
   deleteProduto(): void {
     this.produtoService.delete(this.produto.id.toString()).subscribe(
-      () => {
-        this.produtoService.showMessage('Produto excluido com sucesso!');
-        this.router.navigate(['/produtoForm']);
-      }
-    );
+    () => {
+      this.produtoService.showMessage('Produto excluido com sucesso!!');
+      this.router.navigate(['/produtoForm']);
+    }
+  );
   }
 
   cancel(): void {
     this.router.navigate(['/produtoForm']);
   }
+
 }
+

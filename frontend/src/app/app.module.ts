@@ -32,8 +32,26 @@ import { ProdutoFormCreateComponent } from './windows/produtoForm/produto-form-c
 import { ProdutoFormUpdateComponent } from './windows/produtoForm/produto-form-update/produto-form-update.component';
 import { ProdutoFormDeleteComponent } from './windows/produtoForm/produto-form-delete/produto-form-delete.component';
  
+import { ColaboradorFormCrudComponent } from './windows/colaboradorForm/colaborador-form-crud/colaborador-form-crud.component';
+import { ColaboradorFormReadComponent } from './windows/colaboradorForm/colaborador-form-read/colaborador-form-read.component';
+import { ColaboradorFormCreateComponent } from './windows/colaboradorForm/colaborador-form-create/colaborador-form-create.component';
+import { ColaboradorFormUpdateComponent } from './windows/colaboradorForm/colaborador-form-update/colaborador-form-update.component';
+import { ColaboradorFormDeleteComponent } from './windows/colaboradorForm/colaborador-form-delete/colaborador-form-delete.component';
+ 
+import { GerenteFormCrudComponent } from './windows/gerenteForm/gerente-form-crud/gerente-form-crud.component';
+import { GerenteFormReadComponent } from './windows/gerenteForm/gerente-form-read/gerente-form-read.component';
+import { GerenteFormCreateComponent } from './windows/gerenteForm/gerente-form-create/gerente-form-create.component';
+import { GerenteFormUpdateComponent } from './windows/gerenteForm/gerente-form-update/gerente-form-update.component';
+import { GerenteFormDeleteComponent } from './windows/gerenteForm/gerente-form-delete/gerente-form-delete.component';
+ 
+import { CategoriasFormCrudComponent } from './windows/categoriasForm/categorias-form-crud/categorias-form-crud.component';
+import { CategoriasFormReadComponent } from './windows/categoriasForm/categorias-form-read/categorias-form-read.component';
+import { CategoriasFormCreateComponent } from './windows/categoriasForm/categorias-form-create/categorias-form-create.component';
+import { CategoriasFormUpdateComponent } from './windows/categoriasForm/categorias-form-update/categorias-form-update.component';
+import { CategoriasFormDeleteComponent } from './windows/categoriasForm/categorias-form-delete/categorias-form-delete.component';
+ 
 @NgModule({
-  declarations: [
+ declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
@@ -43,7 +61,22 @@ import { ProdutoFormDeleteComponent } from './windows/produtoForm/produto-form-d
     ProdutoFormReadComponent,
     ProdutoFormCreateComponent,
     ProdutoFormUpdateComponent,
-    ProdutoFormDeleteComponent
+    ProdutoFormDeleteComponent,
+    ColaboradorFormCrudComponent,
+    ColaboradorFormReadComponent,
+    ColaboradorFormCreateComponent,
+    ColaboradorFormUpdateComponent,
+    ColaboradorFormDeleteComponent,
+    GerenteFormCrudComponent,
+    GerenteFormReadComponent,
+    GerenteFormCreateComponent,
+    GerenteFormUpdateComponent,
+    GerenteFormDeleteComponent,
+    CategoriasFormCrudComponent,
+    CategoriasFormReadComponent,
+    CategoriasFormCreateComponent,
+    CategoriasFormUpdateComponent,
+    CategoriasFormDeleteComponent
   ],
  
   imports: [

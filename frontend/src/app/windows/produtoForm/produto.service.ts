@@ -3,17 +3,16 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import { HttpClient } from '@angular/common/http';
 import { Observable, EMPTY } from 'rxjs';
 import { Produto } from './produto.model';
-
+ 
 @Injectable({
   providedIn: 'root'
 })
 export class ProdutoService {
-
-  constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
-
-  baseUrl = "http://localhost:3001/produto";
-
-  create(produto: Produto): Observable<Produto> {
+ 
+constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
+ 
+ baseUrl = "http://localhost:3001/produto";
+ create(produto: Produto): Observable<Produto> {
     return this.http.post<Produto>(this.baseUrl, produto);
   }
 
@@ -43,5 +42,4 @@ export class ProdutoService {
       verticalPosition: "top"
     })
   }
-
 }
