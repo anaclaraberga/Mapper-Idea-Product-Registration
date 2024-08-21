@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1723053746490" ID="ID_285446861" LINK="br.com.neoinix.angular.mm" MODIFIED="1723142916133" TEXT="mapperidea">
 <icon BUILTIN="element"/>
-<node CREATED="1723485179697" ID="ID_1592085864" MODIFIED="1723646605870" POSITION="right" TEXT="maps">
+<node CREATED="1723485179697" FOLDED="true" ID="ID_1592085864" MODIFIED="1724260052141" POSITION="right" TEXT="maps">
 <icon BUILTIN="element"/>
 <node CREATED="1723485179698" ID="ID_1170148802" MODIFIED="1724087839641" TEXT="angularTypes">
 <icon BUILTIN="element"/>
@@ -29,7 +29,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1723053975779" ID="ID_1118909552" MODIFIED="1723646605872" POSITION="right" TEXT="generators">
+<node CREATED="1723053975779" ID="ID_1118909552" MODIFIED="1724260930052" POSITION="right" TEXT="generators">
 <icon BUILTIN="element"/>
 <node CREATED="1682025258298" ID="ID_1496069160" MODIFIED="1723646606296" TEXT="struct">
 <icon BUILTIN="element"/>
@@ -43,7 +43,7 @@
 <icon BUILTIN="element"/>
 </node>
 </node>
-<node CREATED="1723223676512" ID="ID_864529982" MODIFIED="1723662038581" TEXT="angular9">
+<node CREATED="1723223676512" ID="ID_864529982" MODIFIED="1724261107349" TEXT="angular9">
 <icon BUILTIN="element"/>
 <node CREATED="1723570976620" ID="ID_277115465" LINK="generators/angular9/navComponentHtml.mm" MODIFIED="1723570984713" TEXT="navComponentHtml">
 <icon BUILTIN="element"/>
@@ -118,6 +118,78 @@
 </node>
 <node CREATED="1724258124974" ID="ID_737409722" LINK="generators/angular9/update/updateComponentTs.mm" MODIFIED="1724258139279" TEXT="updateComponentTs">
 <icon BUILTIN="element"/>
+</node>
+</node>
+</node>
+<node CREATED="1724260934605" ID="ID_1588188887" MODIFIED="1724260937961" TEXT="bash">
+<icon BUILTIN="element"/>
+<node CREATED="1724260951261" ID="ID_1864762911" MODIFIED="1724260957747" TEXT="frontend">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1724260958765" ID="ID_909537780" MODIFIED="1724261039169" TEXT="windowEditor">
+<icon BUILTIN="element"/>
+<node CREATED="1723482296323" ID="ID_356333124" MODIFIED="1724261174272" TEXT="parameters">
+<icon BUILTIN="element"/>
+<node CREATED="1723482296323" MODIFIED="1723482307069" TEXT="className">
+<icon BUILTIN="element"/>
+<node CREATED="1723482296324" MODIFIED="1723482311132" TEXT="NOT_DEFINED">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1723482296325" MODIFIED="1723482305149" TEXT="packageName">
+<icon BUILTIN="element"/>
+<node CREATED="1723482296326" ID="ID_1953681735" MODIFIED="1723482311131" TEXT="NOT_DEFINED">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1724262816301" ID="ID_1722575896" MODIFIED="1724262823878" TEXT="projectName">
+<icon BUILTIN="element"/>
+<node CREATED="1723482296326" ID="ID_456743470" MODIFIED="1723482311131" TEXT="NOT_DEFINED">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1723661746674" ID="ID_1905394147" MODIFIED="1724261944274" TEXT="patterns">
+<icon BUILTIN="element"/>
+<node CREATED="1723826722279" ID="ID_1436059187" MODIFIED="1724263126367" TEXT="windowEditor">
+<icon BUILTIN="element"/>
+<node CREATED="1723826726804" ID="ID_1672147203" MODIFIED="1724262913084" TEXT="#!/bin/bash&#xa;&#xa;echo &quot; --- Gerando arquivos da tela &apos;{{ properties/title/value }}&apos; --- &quot;&#xa;&#xa;mkdir -p ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-crud&#xa;mapperidea generate {{ $projectName }} angular9 crudComponentHtml className={{ mi:first-upper(@name) }} packageName=br.com.neoinix.angular.window &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-crud/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-crud.component.html&#xa;mapperidea generate {{ $projectName }} angular9 crudComponentTs className={{ mi:first-upper(@name) }} packageName=br.com.neoinix.angular.window &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-crud/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-crud.component.ts&#xa;mapperidea generate {{ $projectName }} angular9 crudComponentCss &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-crud/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-crud.component.css&#xa;&#xa;mkdir -p ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-read&#xa;mapperidea generate {{ $projectName }} angular9 readComponentHtml className={{ mi:first-upper(@name) }} packageName=br.com.neoinix.angular.window &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-read/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-read.component.html&#xa;mapperidea generate {{ $projectName }} angular9 readComponentTs className={{ mi:first-upper(@name) }} packageName=br.com.neoinix.angular.window &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-read/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-read.component.ts&#xa;mapperidea generate {{ $projectName }} angular9 readComponentCss &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-read/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-read.component.css&#xa;&#xa;mkdir -p ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-create&#xa;mapperidea generate {{ $projectName }} angular9 createComponentHtml className={{ mi:first-upper(@name) }} packageName=br.com.neoinix.angular.window &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-create/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-create.component.html&#xa;mapperidea generate {{ $projectName }} angular9 createComponentTs className={{ mi:first-upper(@name) }} packageName=br.com.neoinix.angular.window &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-create/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-create.component.ts&#xa;mapperidea generate {{ $projectName }} angular9 createComponentCss &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-create/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-create.component.css&#xa;&#xa;mkdir -p ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-update&#xa;mapperidea generate {{ $projectName }} angular9 updateComponentHtml className={{ mi:first-upper(@name) }} packageName=br.com.neoinix.angular.window &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-update/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-update.component.html&#xa;mapperidea generate {{ $projectName }} angular9 updateComponentTs className={{ mi:first-upper(@name) }} packageName=br.com.neoinix.angular.window &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-update/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-update.component.ts&#xa;mapperidea generate {{ $projectName }} angular9 updateComponentCss &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-update/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-update.component.css&#xa;&#xa;mkdir -p ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-delete&#xa;mapperidea generate {{ $projectName }} angular9 deleteComponentHtml className={{ mi:first-upper(@name) }} packageName=br.com.neoinix.angular.window &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-delete/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-delete.component.html&#xa;mapperidea generate {{ $projectName }} angular9 deleteComponentTs className={{ mi:first-upper(@name) }} packageName=br.com.neoinix.angular.window &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-delete/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-delete.component.ts&#xa;mapperidea generate {{ $projectName }} angular9 deleteComponentCss &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-delete/{{ mi:lower-case-add-hifen(@name, &apos;&apos;)  }}-delete.component.css&#xa;&#xa;mapperidea generate {{ $projectName }} angular9 modelTs className={{ mi:first-upper(@name) }} packageName=br.com.neoinix.angular.window &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:first-lower($nameAttribute) }}.model.ts&#xa;mapperidea generate {{ $projectName }} angular9 serviceTs className={{ mi:first-upper(@name) }} packageName=br.com.neoinix.angular.window &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:first-lower($nameAttribute) }}.service.ts&#xa;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1724261040310" ID="ID_48448056" MODIFIED="1724261043795" TEXT="start">
+<icon BUILTIN="element"/>
+<node CREATED="1724261045613" ID="ID_864595716" MODIFIED="1724261048171" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1723482132895" ID="ID_1822175671" MODIFIED="1723482210965" TEXT="/classes/class[@name = $className and @package = $packageName]">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1724261049773" ID="ID_1762314876" MODIFIED="1724261051690" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1724262590118" ID="ID_574270160" MODIFIED="1724262642027" TEXT="vars">
+<icon BUILTIN="element"/>
+<node CREATED="1724262592653" ID="ID_1300547296" MODIFIED="1724262643571" TEXT="var">
+<icon BUILTIN="element"/>
+<node CREATED="1724262610901" ID="ID_90980857" MODIFIED="1724262645179" TEXT="nameAttribute">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1724262635182" ID="ID_416062160" MODIFIED="1724262639209" TEXT="expr">
+<icon BUILTIN="element"/>
+<node CREATED="1724262648877" ID="ID_1587611489" MODIFIED="1724262668969" TEXT="attributes/attribute[1]/@type">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1724262618406" ID="ID_331715441" MODIFIED="1724262642028" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1723826726804" ID="ID_333537322" MODIFIED="1724261938578" TEXT="windowEditor">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>

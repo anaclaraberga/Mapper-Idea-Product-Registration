@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1723661398938" ID="ID_1695672722" LINK="../../../mapperidea.mm" MODIFIED="1724258042206" TEXT="deleteComponentHtml">
 <icon BUILTIN="element"/>
-<node CREATED="1724087884176" MODIFIED="1724172804896" POSITION="right" TEXT="vars">
+<node CREATED="1724087884176" ID="ID_1697001513" MODIFIED="1724172804896" POSITION="right" TEXT="vars">
 <icon BUILTIN="element"/>
 <node CREATED="1724087889272" MODIFIED="1724087895377" TEXT="angularTypes">
 <icon BUILTIN="element"/>
@@ -14,7 +14,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1723482296323" MODIFIED="1723828406330" POSITION="right" TEXT="parameters">
+<node CREATED="1723482296323" ID="ID_356333124" MODIFIED="1723828406330" POSITION="right" TEXT="parameters">
 <icon BUILTIN="element"/>
 <node CREATED="1723482296323" MODIFIED="1723482307069" TEXT="className">
 <icon BUILTIN="element"/>
@@ -29,9 +29,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1723661746674" MODIFIED="1724172712834" POSITION="right" TEXT="patterns">
+<node CREATED="1723661746674" ID="ID_1905394147" MODIFIED="1724261919637" POSITION="right" TEXT="patterns">
 <icon BUILTIN="element"/>
-<node CREATED="1723826722279" MODIFIED="1724171940311" TEXT="init">
+<node CREATED="1723826722279" ID="ID_1436059187" MODIFIED="1724171940311" TEXT="init">
 <icon BUILTIN="element"/>
 <node CREATED="1723826726804" MODIFIED="1724179439855" TEXT="&lt;mat-card&gt;&#xa;    &lt;mat-card-title&gt;Deletar {{ mi:first-upper($objectAttribute/properties/description/value) }}&lt;/mat-card-title&gt;&#xa;       &lt;form&gt;&#xa; ">
 <icon BUILTIN="tag_green"/>
@@ -63,7 +63,7 @@
 <icon BUILTIN="element"/>
 <node CREATED="1723646610576" MODIFIED="1723661703518" TEXT="match">
 <icon BUILTIN="element"/>
-<node CREATED="1723482132895" MODIFIED="1723482210965" TEXT="/classes/class[@name = $className and @package = $packageName]">
+<node CREATED="1723482132895" ID="ID_1822175671" MODIFIED="1723482210965" TEXT="/classes/class[@name = $className and @package = $packageName]">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -137,7 +137,7 @@
 </node>
 <node CREATED="1723482507488" MODIFIED="1723827719864" TEXT="end">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1723137437658" MODIFIED="1723827655350" TEXT="write-pattern">
+<node CREATED="1723137437658" FOLDED="true" ID="ID_1967234737" MODIFIED="1724261913574" TEXT="write-pattern">
 <icon BUILTIN="element"/>
 <node CREATED="1723137520274" MODIFIED="1724172587415" TEXT="end">
 <icon BUILTIN="tag_green"/>
@@ -146,7 +146,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1724171987307" FOLDED="true" MODIFIED="1724182480240" POSITION="right" TEXT="templates">
+<node CREATED="1724171987307" ID="ID_1911212841" MODIFIED="1724261197455" POSITION="right" TEXT="templates">
 <icon BUILTIN="element"/>
 <node CREATED="1723831984348" MODIFIED="1724173473511" TEXT="field">
 <icon BUILTIN="Descriptor.grouping"/>

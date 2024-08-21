@@ -1,0 +1,18 @@
+<mat-card>
+    <mat-card-title>Editar Gerente</mat-card-title>
+       <form>
+ 
+        <mat-form-field>
+            <input matInput placeholder="Nome" [(ngModel)]="gerente.nome" name="nome">
+        </mat-form-field>
+    </form>
+
+    <button mat-raised-button (click)="updateGerente()" color="primary">
+        Salvar
+    </button>
+
+    <button mat-raised-button (click)="cancel()" color="">
+        Cancelar
+    </button>
+
+</mat-card>
